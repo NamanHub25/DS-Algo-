@@ -1,0 +1,20 @@
+First question in the Easy section which is of finding largest element in the array.
+      It's brute force is simple i.e. just sort the array and print the last element in the array. Since the array is sorted so the last element will be the largest element of the array. 
+      Time complexity --> N(logn)
+      Space complexity --> O(1)
+      
+      Optimal approach is just initializing a variable with Integer.MIN_VALUE and comparing it with every element if any other element of the array is larger than the variable we have taken then we assign the value of the element to that variable we have taken.
+      Time complexity --> O(n)
+      Space complexity --> O(1)
+
+
+Second question in the easy section is finding the second largest element in the array.
+       It's brute is similar to that of finding first largest element in the array i.e. just sort the array and since it is a sorted array then the first largest element will be last element in the array likewise the second largest would be the second last element in the array.
+       Time complexity --> N(logN)
+       Space complexity --> O(1)
+
+       It's better approach includes taking largest element as 0 and secondlargest as Integer.MIN_VALUE 
+       Time complexity --> O(2n)
+       Space complexity --> O(1)
+
+       
